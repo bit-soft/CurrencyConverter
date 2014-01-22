@@ -1,4 +1,4 @@
-__author__ = 'ayoub'
+__author__ = 'Ayoub J.I'
 import urllib2
 from bs4 import BeautifulSoup
 import sys
