@@ -16,7 +16,7 @@ try:
         raise ValueError
 
     amount, currency_from = args[1], args[2]
-
+    # loop on currencies to get the correct rates
     for currency_to in currency_list.keys():
         if currency_from != currency_to:
             url = "http://www.x-rates.com/calculator/?from=%s&to=%s&amount=%s" % (str(currency_from), str(currency_to), str(amount))
